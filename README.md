@@ -13,7 +13,7 @@
 如果目前沒有在執行process，並且heap中有process，則取出execution time最小的process並執行，直到該process執行結束。
 * PSJF
 每次選擇剩餘執行時間最短的 process 來執行，當新產生的 process 執行時間更短時，就可以插隊。 \
-heap 頂端的process 會隨時與執行中的process比較，若其擁有叫小剩餘執行時間，他就會插隊，並把原本執行中的process放回heap。
+heap 頂端的process 會隨時與執行中的process比較，若其擁有更小剩餘執行時間，他就會插隊，並把原本執行中的process放回heap。
 
 ## 2. 核心版本 
 **linux 4.14.25** @ubuntu 16.04 
