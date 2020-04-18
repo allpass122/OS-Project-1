@@ -1,4 +1,5 @@
 # OS-Project-1
+demo影片有點大，請下載所有zip檔解壓縮。
 ## 1. 設計
 * FIFO
 先來的process先執行，將ready time sort由小到大排序後按順序執行。
